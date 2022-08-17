@@ -1,0 +1,78 @@
+body {
+    background-image: url("images/kenrick-mills-vines-unsplash.jpg");
+    background-color: #0000;
+    background-repeat: repeat;
+    background-size: 500px;
+
+    color: white;
+    text-align: center;
+   }
+
+div {
+    background-color: plum;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+}
+
+header{
+    position: sticky;
+    background-color: pink;
+    top: 0;
+}
+
+
+.topNav ul{
+    columns: 4;
+    list-style: none;
+}
+
+.topNav h1{
+    padding: 0%;
+    font-size: xx-large;
+    font-style: bold;
+    text-decoration: none;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+.topNav a{
+    text-decoration: none;
+    color: white;
+}
+
+.topNav button{
+    padding: 5%;
+    margin-top: 5%;
+    font-size: large;
+    color:  white;
+    background-color: plum;
+    margin-bottom: 5%;
+}
+
+.topNav hr{
+    background-color: black;
+    background-image: linear-gradient(to right, transparent, purple, transparent);
+}
+
+hr {
+    border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+.projectFrontPage ul {
+    columns: 2;
+    list-style: none;
+}
+
+.projectFrontPage button{
+    padding: 5%;
+    margin-top: 5%;
+    font-size: large;
+    color:  white;
+    background-color: darkslateblue;
+}
+
+.projectFrontPage {
+    background-color: pink;
+}
