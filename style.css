@@ -23,8 +23,9 @@ header{
 
 
 .topNav ul{
-    columns: 4;
+    columns: 5;
     list-style: none;
+    column-gap: 0%;
 }
 
 .topNav h1{
@@ -43,6 +44,7 @@ header{
 .topNav button{
     padding: 5%;
     margin-top: 5%;
+    margin-left: 5%;
     font-size: large;
     color:  white;
     background-color: plum;
