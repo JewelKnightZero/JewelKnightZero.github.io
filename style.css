@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Images/kenrick-mills-vines-unsplash.jpg");
+    background-image: url("Images/kenrick-mills-vines-unsplash.jpg");
     background-color: #0000;
     background-repeat: repeat;
     background-size: 500px;
@@ -63,7 +63,7 @@ hr {
 }
 
 .projectFrontPage ul {
-    columns: 2;
+    columns: 5;
     list-style: none;
 }
 
