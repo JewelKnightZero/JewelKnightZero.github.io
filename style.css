@@ -36,7 +36,7 @@ header{
     font-family: "Lucida Handwriting", cursive;
 }
 
-.topNav a{
+a {
     text-decoration: none;
     color: white;
 }
@@ -63,18 +63,48 @@ hr {
 }
 
 .projectFrontPage ul {
-    columns: 5;
+    
     list-style: none;
 }
 
+.projectFrontPage li {
+    display: inline-block;
+    background-color: plum;
+}
+
 .projectFrontPage button{
-    padding: 5%;
-    margin-top: 5%;
+    padding: 1%;
+    margin-top: 1%;
     font-size: large;
     color:  white;
-    background-color: darkslateblue;
+    background-color: palevioletred;
 }
 
 .projectFrontPage {
     background-color: pink;
 }
+
+.ProjectPage div {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ProjectPage ul {
+    columns: 2;
+    list-style: none;
+}
+
+.ProjectPage img {
+    width:600px;
+    height: 400px;
+}
+
+.projectPage h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.ProjectPage h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
