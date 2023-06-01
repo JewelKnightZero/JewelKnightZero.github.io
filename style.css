@@ -9,31 +9,39 @@ body {
    }
 
 div {
-    background-color: plum;
+    background-color: rgba(190, 76, 35, 0.85);
     margin-left: 10%;
     margin-right: 10%;
     padding: 1%;
+    font-size: large;
+    font-family: 'Cormorant Garamond', serif;
+    /* opacity: 80%; */
+}
+
+h1 {
+    font-family: 'Cardo', serif;
 }
 
 header{
     position: sticky;
-    background-color: pink;
+    background-color:#650112;
     top: 0;
 }
 
 
 .topNav ul{
-    columns: 5;
+    columns: 4;
     list-style: none;
-    column-gap: 0%;
+    /* column-gap: 0%; */
 }
 
 .topNav h1{
     padding: 0%;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-style: bold;
     text-decoration: none;
     font-family: "Lucida Handwriting", cursive;
+    margin-top: 5%;
 }
 
 a {
@@ -44,16 +52,19 @@ a {
 .topNav button{
     padding: 5%;
     margin-top: 5%;
-    margin-left: 5%;
-    font-size: large;
+    /* margin-left: 5%; */
+    font-size: xx-large;
+    font-family: 'Cardo', serif;
     color:  white;
-    background-color: plum;
-    margin-bottom: 5%;
+    background-color: #BE4C23;
+    margin-bottom: 2%;
+    width: 90%;
+    border: none;
 }
 
 .topNav hr{
     background-color: black;
-    background-image: linear-gradient(to right, transparent, purple, transparent);
+    background-image: linear-gradient(to right, transparent, #780116, transparent);
 }
 
 hr {
@@ -69,7 +80,7 @@ hr {
 
 .projectFrontPage li {
     display: inline-block;
-    background-color: plum;
+    background-color: #BE4C23;
 }
 
 .projectFrontPage button{
@@ -77,11 +88,13 @@ hr {
     margin-top: 1%;
     font-size: large;
     color:  white;
-    background-color: palevioletred;
+    background-color: #F5A614;
+    border: none;
+    opacity: 100%;
 }
 
 .projectFrontPage {
-    background-color: pink;
+    background-color: none;
 }
 
 .ProjectPage div {
@@ -100,7 +113,7 @@ hr {
 }
 
 .projectPage h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cardo', serif;
     font-style: bold;
 }
 
