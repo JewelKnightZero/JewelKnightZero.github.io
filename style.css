@@ -97,17 +97,17 @@ hr {
     background-color: none;
 }
 
-.ProjectPage div {
+.projectPage div {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.ProjectPage ul {
+.projectPage ul {
     columns: 2;
     list-style: none;
 }
 
-.ProjectPage img {
+.projectPage img {
     width:600px;
     height: 400px;
 }
@@ -117,7 +117,7 @@ hr {
     font-style: bold;
 }
 
-.ProjectPage h3 {
+.projectPage h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
