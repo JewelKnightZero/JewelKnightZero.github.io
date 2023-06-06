@@ -97,7 +97,11 @@ hr {
     background-color: none;
 }
 
-img {
-    width: fit-content;
-    height: fit-content;
+@media screen and (max-width: 600px) {
+    img {
+        width: 600px;
+        height: 240px;
+    }
 }
+
+
