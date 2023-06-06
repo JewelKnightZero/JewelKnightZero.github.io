@@ -32,3 +32,44 @@
         height: "315";
     }
 }
+
+body {
+    background-image: url("Images/kenrick-mills-vines-unsplash.jpg");
+    background-color: #0000;
+    background-repeat: repeat;
+    background-size: 500px;
+
+    color: white;
+    text-align: center;
+   }
+
+div {
+    background-color: rgba(190, 76, 35, 0.85);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    font-size: large;
+    font-family: 'Cormorant Garamond', serif;
+    /* opacity: 80%; */
+}
+
+h1 {
+    font-family: 'Cardo', serif;
+}
+
+header{
+    position: sticky;
+    background-color:#650112;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
