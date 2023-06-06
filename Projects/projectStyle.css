@@ -34,7 +34,7 @@
 }
 
 body {
-    background-image: url("Images/kenrick-mills-vines-unsplash.jpg");
+    background-image: url("../Images/kenrick-mills-vines-unsplash.jpg");
     background-color: #0000;
     background-repeat: repeat;
     background-size: 500px;
@@ -72,4 +72,47 @@ hr {
     border: 0;
   height: 2px;
   background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+.topNav ul{
+    columns: 4;
+    list-style: none;
+    /* column-gap: 0%; */
+}
+
+.topNav h1{
+    padding: 0%;
+    font-size: xxx-large;
+    font-style: bold;
+    text-decoration: none;
+    font-family: "Lucida Handwriting", cursive;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.topNav button{
+    padding: 5%;
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    font-size: xx-large;
+    font-family: 'Cardo', serif;
+    color:  white;
+    background-color: #BE4C23;
+    margin-bottom: 2%;
+    width: 90%;
+    border: none;
+}
+
+.topNav hr{
+    background-color: black;
+    background-image: linear-gradient(to right, transparent, #780116, transparent);
+}
+
+ul {
+    
+    list-style: none;
 }

@@ -97,4 +97,7 @@ hr {
     background-color: none;
 }
 
-
+img {
+    width: fit-content;
+    height: fit-content;
+}
